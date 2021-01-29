@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BooksCollectionViewCell" customModule="okulLib" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="133" height="278"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="133" height="278"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kitap1" translatesAutoresizingMaskIntoConstraints="NO" id="EHM-AE-ssF">
+                        <rect key="frame" x="16" y="20" width="101" height="137"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="137" id="k7G-ew-5vK"/>
+                            <constraint firstAttribute="width" constant="101" id="p0G-7b-pUO"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jose Mauro De Vasconcelos" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IrM-L2-nPX">
+                        <rect key="frame" x="16" y="219" width="101" height="26.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Şeker Portakalı" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsB-H8-pAq">
+                        <rect key="frame" x="16" y="173" width="101" height="36"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="IrM-L2-nPX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="5r6-Bn-E6E"/>
+                <constraint firstAttribute="trailing" secondItem="IrM-L2-nPX" secondAttribute="trailing" constant="16" id="Hps-VX-aCE"/>
+                <constraint firstItem="WsB-H8-pAq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="RE0-G2-aoa"/>
+                <constraint firstItem="EHM-AE-ssF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="VMR-WQ-Vua"/>
+                <constraint firstItem="WsB-H8-pAq" firstAttribute="top" secondItem="EHM-AE-ssF" secondAttribute="bottom" constant="16" id="WhP-zO-dsq"/>
+                <constraint firstAttribute="trailing" secondItem="EHM-AE-ssF" secondAttribute="trailing" constant="16" id="YT3-F9-g09"/>
+                <constraint firstAttribute="trailing" secondItem="EHM-AE-ssF" secondAttribute="trailing" constant="16" id="dvY-5A-GVN"/>
+                <constraint firstItem="IrM-L2-nPX" firstAttribute="top" secondItem="WsB-H8-pAq" secondAttribute="bottom" constant="10" id="lUV-nT-R2I"/>
+                <constraint firstAttribute="trailing" secondItem="WsB-H8-pAq" secondAttribute="trailing" constant="16" id="pBU-Pf-5Nc"/>
+                <constraint firstItem="EHM-AE-ssF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="sE1-Bm-ldS"/>
+            </constraints>
+            <size key="customSize" width="141" height="322"/>
+            <connections>
+                <outlet property="authorName" destination="IrM-L2-nPX" id="5M1-CM-0Xz"/>
+                <outlet property="bookImage" destination="EHM-AE-ssF" id="C1R-zU-MxD"/>
+                <outlet property="bookName" destination="WsB-H8-pAq" id="OTd-jp-ntJ"/>
+            </connections>
+            <point key="canvasLocation" x="93.478260869565219" y="91.071428571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="kitap1" width="135" height="204"/>
+    </resources>
+</document>

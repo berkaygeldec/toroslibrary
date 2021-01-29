@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="booktableviewcell" id="KGk-i7-Jjw" customClass="StudentBookCell" customModule="okulLib" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="505" height="323"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="505" height="323"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edebiyat" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jsd-L3-6rQ">
+                        <rect key="frame" x="20" y="17" width="465" height="27.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="FKd-uC-CRb">
+                        <rect key="frame" x="0.0" y="62.5" width="470" height="246.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="z7N-DM-9fU">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Jsd-L3-6rQ" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="91K-rg-Dwz"/>
+                    <constraint firstAttribute="trailing" secondItem="FKd-uC-CRb" secondAttribute="trailing" constant="35" id="9al-9n-F2g"/>
+                    <constraint firstItem="Jsd-L3-6rQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="Xhc-CL-jRY"/>
+                    <constraint firstItem="Jsd-L3-6rQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="hBc-rr-ToZ"/>
+                    <constraint firstAttribute="bottom" secondItem="FKd-uC-CRb" secondAttribute="bottom" constant="14" id="obu-lb-fWS"/>
+                    <constraint firstItem="FKd-uC-CRb" firstAttribute="top" secondItem="Jsd-L3-6rQ" secondAttribute="bottom" constant="18" id="toS-Rz-39e"/>
+                    <constraint firstItem="FKd-uC-CRb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="why-pj-HyX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="collectionView" destination="FKd-uC-CRb" id="uhx-qs-buC"/>
+                <outlet property="titleLabel" destination="Jsd-L3-6rQ" id="QPF-r9-fbh"/>
+            </connections>
+            <point key="canvasLocation" x="271.73913043478262" y="16.40625"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="studentprofilecell" rowHeight="304" id="KGk-i7-Jjw" customClass="StudentUserTableViewCell" customModule="okulLib" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="455" height="304"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="455" height="304"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1sF-6S-lwW">
+                        <rect key="frame" x="22" y="22" width="410" height="260"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kitap1" translatesAutoresizingMaskIntoConstraints="NO" id="iYj-Aq-hOn">
+                                <rect key="frame" x="8" y="12" width="135" height="237"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="237" id="T7y-fb-ECE"/>
+                                    <constraint firstAttribute="width" constant="135" id="Ygb-b1-t4E"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Cennet , Cehennem ve Araf " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pwR-Al-dlj">
+                                <rect key="frame" x="162" y="46" width="268" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Laurent Quintreau" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="siJ-Rc-DCd">
+                                <rect key="frame" x="162" y="74" width="268" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="268" id="269-47-BxK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Alınan Tarih" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZl-w3-eR1">
+                                <rect key="frame" x="162" y="103.5" width="213" height="58.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13/04/2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHu-Wb-Vpp">
+                                <rect key="frame" x="162" y="170" width="213" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="siJ-Rc-DCd" firstAttribute="top" secondItem="pwR-Al-dlj" secondAttribute="bottom" constant="7.5" id="81w-2x-ePn"/>
+                            <constraint firstItem="LZl-w3-eR1" firstAttribute="leading" secondItem="iYj-Aq-hOn" secondAttribute="trailing" constant="19" id="84Q-DH-dk3"/>
+                            <constraint firstItem="VHu-Wb-Vpp" firstAttribute="leading" secondItem="iYj-Aq-hOn" secondAttribute="trailing" constant="19" id="9zo-hx-RNu"/>
+                            <constraint firstItem="pwR-Al-dlj" firstAttribute="top" secondItem="1sF-6S-lwW" secondAttribute="top" constant="46" id="BlI-ld-bOF"/>
+                            <constraint firstItem="VHu-Wb-Vpp" firstAttribute="top" secondItem="LZl-w3-eR1" secondAttribute="bottom" constant="8" id="IT0-Og-WcD"/>
+                            <constraint firstAttribute="trailing" secondItem="pwR-Al-dlj" secondAttribute="trailing" constant="-20" id="Of1-vr-ezw"/>
+                            <constraint firstItem="iYj-Aq-hOn" firstAttribute="leading" secondItem="1sF-6S-lwW" secondAttribute="leading" constant="8" id="QSn-uB-shz"/>
+                            <constraint firstAttribute="trailing" secondItem="siJ-Rc-DCd" secondAttribute="trailing" constant="-20" id="R81-Tc-MYj"/>
+                            <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="VHu-Wb-Vpp" secondAttribute="bottom" constant="69" id="dBg-xn-bhd"/>
+                            <constraint firstItem="LZl-w3-eR1" firstAttribute="top" secondItem="siJ-Rc-DCd" secondAttribute="bottom" constant="11.5" id="e0k-lm-plS"/>
+                            <constraint firstItem="iYj-Aq-hOn" firstAttribute="top" secondItem="1sF-6S-lwW" secondAttribute="top" constant="12" id="gfR-ag-Ups"/>
+                            <constraint firstItem="siJ-Rc-DCd" firstAttribute="leading" secondItem="iYj-Aq-hOn" secondAttribute="trailing" constant="19" id="gwr-0K-s62"/>
+                            <constraint firstAttribute="trailing" secondItem="LZl-w3-eR1" secondAttribute="trailing" constant="35" id="hm6-c1-pEa"/>
+                            <constraint firstItem="pwR-Al-dlj" firstAttribute="leading" secondItem="iYj-Aq-hOn" secondAttribute="trailing" constant="19" id="kon-is-c3X"/>
+                            <constraint firstAttribute="trailing" secondItem="VHu-Wb-Vpp" secondAttribute="trailing" constant="35" id="ldp-id-lSS"/>
+                            <constraint firstAttribute="bottom" secondItem="iYj-Aq-hOn" secondAttribute="bottom" constant="11" id="tpg-zM-gVQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="1sF-6S-lwW" secondAttribute="trailing" constant="23" id="Fip-8u-FT1"/>
+                    <constraint firstItem="1sF-6S-lwW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="22" id="dci-lj-QeI"/>
+                    <constraint firstAttribute="bottom" secondItem="1sF-6S-lwW" secondAttribute="bottom" constant="22" id="jTs-gw-gWY"/>
+                    <constraint firstItem="1sF-6S-lwW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="22" id="onV-wD-llP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bookImage" destination="iYj-Aq-hOn" id="ce9-Xu-71t"/>
+                <outlet property="bookNameLabel" destination="pwR-Al-dlj" id="6Ky-Lq-Qzx"/>
+                <outlet property="teslimTarihiLabel" destination="VHu-Wb-Vpp" id="b4s-bB-EXS"/>
+                <outlet property="yazarLabel" destination="siJ-Rc-DCd" id="0aw-Gj-V92"/>
+            </connections>
+            <point key="canvasLocation" x="261.59420289855075" y="31.473214285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="kitap1" width="135" height="204"/>
+    </resources>
+</document>

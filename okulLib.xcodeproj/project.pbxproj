@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BB3A63225BD98CD004B9283 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BB3A63125BD98CD004B9283 /* GoogleService-Info.plist */; };
+		9E079EAA25B4DF1500B79510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E079EA925B4DF1500B79510 /* AppDelegate.swift */; };
+		9E079EAC25B4DF1500B79510 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E079EAB25B4DF1500B79510 /* SceneDelegate.swift */; };
+		9E079EAE25B4DF1500B79510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E079EAD25B4DF1500B79510 /* ViewController.swift */; };
+		9E079EB125B4DF1500B79510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E079EAF25B4DF1500B79510 /* Main.storyboard */; };
+		9E079EB325B4DF1600B79510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E079EB225B4DF1600B79510 /* Assets.xcassets */; };
+		9E079EB625B4DF1600B79510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E079EB425B4DF1600B79510 /* LaunchScreen.storyboard */; };
+		9E50854225B6CD380030B6F3 /* RezervasyonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50854125B6CD380030B6F3 /* RezervasyonPage.swift */; };
+		9E50854725B6FF7A0030B6F3 /* SorumluRezervasyon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50854525B6FF7A0030B6F3 /* SorumluRezervasyon.swift */; };
+		9E50854825B6FF7A0030B6F3 /* SorumluRezervasyon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E50854625B6FF7A0030B6F3 /* SorumluRezervasyon.xib */; };
+		9E50854B25B70FEC0030B6F3 /* SorumluRezervasyonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50854A25B70FEC0030B6F3 /* SorumluRezervasyonVC.swift */; };
+		9E50855325B71B280030B6F3 /* KullanicilarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50855225B71B280030B6F3 /* KullanicilarVC.swift */; };
+		9E50855725B71CE20030B6F3 /* SorumluUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50855525B71CE20030B6F3 /* SorumluUserTableViewCell.swift */; };
+		9E50855825B71CE20030B6F3 /* SorumluUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E50855625B71CE20030B6F3 /* SorumluUserTableViewCell.xib */; };
+		9E50855B25B766890030B6F3 /* AddUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E50855A25B766890030B6F3 /* AddUserVC.swift */; };
+		9E7198B725B63C4D00E3474A /* StudentProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7198B625B63C4D00E3474A /* StudentProfileVC.swift */; };
+		9E85DD9625BA026100F72F0F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E85DD9525BA026100F72F0F /* Model.swift */; };
+		9E85DD9925BAD60100F72F0F /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E85DD9825BAD60100F72F0F /* SearchVC.swift */; };
+		9E85DD9D25BAD95700F72F0F /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E85DD9B25BAD95700F72F0F /* SearchCell.swift */; };
+		9E85DD9E25BAD95700F72F0F /* SearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E85DD9C25BAD95700F72F0F /* SearchCell.xib */; };
+		9EA215E125B8B06B003CF1B9 /* SorumluKitaplarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA215DF25B8B06B003CF1B9 /* SorumluKitaplarCell.swift */; };
+		9EA215E225B8B06B003CF1B9 /* SorumluKitaplarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EA215E025B8B06B003CF1B9 /* SorumluKitaplarCell.xib */; };
+		9EB6DCC225B5A99E00EDBF1D /* StudentHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6DCC125B5A99E00EDBF1D /* StudentHomeVC.swift */; };
+		9EB6DCC525B5AA9E00EDBF1D /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6DCC425B5AA9E00EDBF1D /* AlertView.swift */; };
+		9EB6DCCD25B601F400EDBF1D /* StudentBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6DCCB25B601F400EDBF1D /* StudentBookCell.swift */; };
+		9EB6DCCE25B601F400EDBF1D /* StudentBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6DCCC25B601F400EDBF1D /* StudentBookCell.xib */; };
+		9EB6DCD225B6053000EDBF1D /* BooksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6DCD025B6053000EDBF1D /* BooksCollectionViewCell.swift */; };
+		9EB6DCD325B6053000EDBF1D /* BooksCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6DCD125B6053000EDBF1D /* BooksCollectionViewCell.xib */; };
+		9EB6DCD625B62E1C00EDBF1D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6DCD525B62E1C00EDBF1D /* Extensions.swift */; };
+		9EB6DCDA25B632B600EDBF1D /* StudentUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6DCD825B632B600EDBF1D /* StudentUserTableViewCell.swift */; };
+		9EB6DCDB25B632B600EDBF1D /* StudentUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6DCD925B632B600EDBF1D /* StudentUserTableViewCell.xib */; };
+		9EC15EF825B85D6E00D0E0AC /* SorumluKitaplar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC15EF725B85D6E00D0E0AC /* SorumluKitaplar.swift */; };
+		9EC15EFB25B85D8A00D0E0AC /* AddBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC15EFA25B85D8A00D0E0AC /* AddBook.swift */; };
+		D787BCC5EAC824502219D5C9 /* Pods_okulLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07835850192A716399A9B956 /* Pods_okulLib.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07835850192A716399A9B956 /* Pods_okulLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_okulLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB3A63125BD98CD004B9283 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4EB6087DF7824C884B912B63 /* Pods-okulLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-okulLib.debug.xcconfig"; path = "Target Support Files/Pods-okulLib/Pods-okulLib.debug.xcconfig"; sourceTree = "<group>"; };
+		8EF213CCD4121BD0FFBB346C /* Pods-okulLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-okulLib.release.xcconfig"; path = "Target Support Files/Pods-okulLib/Pods-okulLib.release.xcconfig"; sourceTree = "<group>"; };
+		9E079EA625B4DF1500B79510 /* okulLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = okulLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E079EA925B4DF1500B79510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E079EAB25B4DF1500B79510 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9E079EAD25B4DF1500B79510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E079EB025B4DF1500B79510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E079EB225B4DF1600B79510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E079EB525B4DF1600B79510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E079EB725B4DF1600B79510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E50854125B6CD380030B6F3 /* RezervasyonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RezervasyonPage.swift; sourceTree = "<group>"; };
+		9E50854525B6FF7A0030B6F3 /* SorumluRezervasyon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorumluRezervasyon.swift; sourceTree = "<group>"; };
+		9E50854625B6FF7A0030B6F3 /* SorumluRezervasyon.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SorumluRezervasyon.xib; sourceTree = "<group>"; };
+		9E50854A25B70FEC0030B6F3 /* SorumluRezervasyonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorumluRezervasyonVC.swift; sourceTree = "<group>"; };
+		9E50855225B71B280030B6F3 /* KullanicilarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KullanicilarVC.swift; sourceTree = "<group>"; };
+		9E50855525B71CE20030B6F3 /* SorumluUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorumluUserTableViewCell.swift; sourceTree = "<group>"; };
+		9E50855625B71CE20030B6F3 /* SorumluUserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SorumluUserTableViewCell.xib; sourceTree = "<group>"; };
+		9E50855A25B766890030B6F3 /* AddUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserVC.swift; sourceTree = "<group>"; };
+		9E7198B625B63C4D00E3474A /* StudentProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentProfileVC.swift; sourceTree = "<group>"; };
+		9E85DD9525BA026100F72F0F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9E85DD9825BAD60100F72F0F /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		9E85DD9B25BAD95700F72F0F /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		9E85DD9C25BAD95700F72F0F /* SearchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCell.xib; sourceTree = "<group>"; };
+		9EA215DF25B8B06B003CF1B9 /* SorumluKitaplarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorumluKitaplarCell.swift; sourceTree = "<group>"; };
+		9EA215E025B8B06B003CF1B9 /* SorumluKitaplarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SorumluKitaplarCell.xib; sourceTree = "<group>"; };
+		9EB6DCC125B5A99E00EDBF1D /* StudentHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHomeVC.swift; sourceTree = "<group>"; };
+		9EB6DCC425B5AA9E00EDBF1D /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		9EB6DCCB25B601F400EDBF1D /* StudentBookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentBookCell.swift; sourceTree = "<group>"; };
+		9EB6DCCC25B601F400EDBF1D /* StudentBookCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentBookCell.xib; sourceTree = "<group>"; };
+		9EB6DCD025B6053000EDBF1D /* BooksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksCollectionViewCell.swift; sourceTree = "<group>"; };
+		9EB6DCD125B6053000EDBF1D /* BooksCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BooksCollectionViewCell.xib; sourceTree = "<group>"; };
+		9EB6DCD525B62E1C00EDBF1D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9EB6DCD825B632B600EDBF1D /* StudentUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentUserTableViewCell.swift; sourceTree = "<group>"; };
+		9EB6DCD925B632B600EDBF1D /* StudentUserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentUserTableViewCell.xib; sourceTree = "<group>"; };
+		9EC15EF725B85D6E00D0E0AC /* SorumluKitaplar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorumluKitaplar.swift; sourceTree = "<group>"; };
+		9EC15EFA25B85D8A00D0E0AC /* AddBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBook.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E079EA325B4DF1500B79510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D787BCC5EAC824502219D5C9 /* Pods_okulLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12306E630A007822CB275333 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07835850192A716399A9B956 /* Pods_okulLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E079E9D25B4DF1500B79510 = {
+			isa = PBXGroup;
+			children = (
+				9E079EA825B4DF1500B79510 /* okulLib */,
+				9E079EA725B4DF1500B79510 /* Products */,
+				D6EFC7C8E0BD9974C8C6636B /* Pods */,
+				12306E630A007822CB275333 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E079EA725B4DF1500B79510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E079EA625B4DF1500B79510 /* okulLib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E079EA825B4DF1500B79510 /* okulLib */ = {
+			isa = PBXGroup;
+			children = (
+				9E079EA925B4DF1500B79510 /* AppDelegate.swift */,
+				9E079EAB25B4DF1500B79510 /* SceneDelegate.swift */,
+				9EB6DCD525B62E1C00EDBF1D /* Extensions.swift */,
+				9E079EAD25B4DF1500B79510 /* ViewController.swift */,
+				9E079EAF25B4DF1500B79510 /* Main.storyboard */,
+				9E079EB225B4DF1600B79510 /* Assets.xcassets */,
+				9E079EB425B4DF1600B79510 /* LaunchScreen.storyboard */,
+				9E079EB725B4DF1600B79510 /* Info.plist */,
+				2BB3A63125BD98CD004B9283 /* GoogleService-Info.plist */,
+				9EB6DCC125B5A99E00EDBF1D /* StudentHomeVC.swift */,
+				9EB6DCC425B5AA9E00EDBF1D /* AlertView.swift */,
+				9EB6DCCB25B601F400EDBF1D /* StudentBookCell.swift */,
+				9EB6DCCC25B601F400EDBF1D /* StudentBookCell.xib */,
+				9EB6DCD025B6053000EDBF1D /* BooksCollectionViewCell.swift */,
+				9EB6DCD125B6053000EDBF1D /* BooksCollectionViewCell.xib */,
+				9E7198B625B63C4D00E3474A /* StudentProfileVC.swift */,
+				9EB6DCD825B632B600EDBF1D /* StudentUserTableViewCell.swift */,
+				9EB6DCD925B632B600EDBF1D /* StudentUserTableViewCell.xib */,
+				9E50854125B6CD380030B6F3 /* RezervasyonPage.swift */,
+				9E50854525B6FF7A0030B6F3 /* SorumluRezervasyon.swift */,
+				9E50854625B6FF7A0030B6F3 /* SorumluRezervasyon.xib */,
+				9E50854A25B70FEC0030B6F3 /* SorumluRezervasyonVC.swift */,
+				9E50855225B71B280030B6F3 /* KullanicilarVC.swift */,
+				9E50855525B71CE20030B6F3 /* SorumluUserTableViewCell.swift */,
+				9E50855625B71CE20030B6F3 /* SorumluUserTableViewCell.xib */,
+				9E50855A25B766890030B6F3 /* AddUserVC.swift */,
+				9EC15EFA25B85D8A00D0E0AC /* AddBook.swift */,
+				9EC15EF725B85D6E00D0E0AC /* SorumluKitaplar.swift */,
+				9EA215DF25B8B06B003CF1B9 /* SorumluKitaplarCell.swift */,
+				9EA215E025B8B06B003CF1B9 /* SorumluKitaplarCell.xib */,
+				9E85DD9525BA026100F72F0F /* Model.swift */,
+				9E85DD9825BAD60100F72F0F /* SearchVC.swift */,
+				9E85DD9B25BAD95700F72F0F /* SearchCell.swift */,
+				9E85DD9C25BAD95700F72F0F /* SearchCell.xib */,
+			);
+			path = okulLib;
+			sourceTree = "<group>";
+		};
+		D6EFC7C8E0BD9974C8C6636B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EB6087DF7824C884B912B63 /* Pods-okulLib.debug.xcconfig */,
+				8EF213CCD4121BD0FFBB346C /* Pods-okulLib.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E079EA525B4DF1500B79510 /* okulLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E079EBA25B4DF1600B79510 /* Build configuration list for PBXNativeTarget "okulLib" */;
+			buildPhases = (
+				6D745D5769B1A32F06A70068 /* [CP] Check Pods Manifest.lock */,
+				9E079EA225B4DF1500B79510 /* Sources */,
+				9E079EA325B4DF1500B79510 /* Frameworks */,
+				9E079EA425B4DF1500B79510 /* Resources */,
+				45C0965DF3DF59A8F4CBC5AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = okulLib;
+			productName = okulLib;
+			productReference = 9E079EA625B4DF1500B79510 /* okulLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E079E9E25B4DF1500B79510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					9E079EA525B4DF1500B79510 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 9E079EA125B4DF1500B79510 /* Build configuration list for PBXProject "okulLib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E079E9D25B4DF1500B79510;
+			productRefGroup = 9E079EA725B4DF1500B79510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E079EA525B4DF1500B79510 /* okulLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E079EA425B4DF1500B79510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E079EB625B4DF1600B79510 /* LaunchScreen.storyboard in Resources */,
+				9EA215E225B8B06B003CF1B9 /* SorumluKitaplarCell.xib in Resources */,
+				9EB6DCD325B6053000EDBF1D /* BooksCollectionViewCell.xib in Resources */,
+				9EB6DCDB25B632B600EDBF1D /* StudentUserTableViewCell.xib in Resources */,
+				9E50855825B71CE20030B6F3 /* SorumluUserTableViewCell.xib in Resources */,
+				9EB6DCCE25B601F400EDBF1D /* StudentBookCell.xib in Resources */,
+				9E079EB325B4DF1600B79510 /* Assets.xcassets in Resources */,
+				9E50854825B6FF7A0030B6F3 /* SorumluRezervasyon.xib in Resources */,
+				2BB3A63225BD98CD004B9283 /* GoogleService-Info.plist in Resources */,
+				9E079EB125B4DF1500B79510 /* Main.storyboard in Resources */,
+				9E85DD9E25BAD95700F72F0F /* SearchCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45C0965DF3DF59A8F4CBC5AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-okulLib/Pods-okulLib-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-okulLib/Pods-okulLib-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-okulLib/Pods-okulLib-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D745D5769B1A32F06A70068 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-okulLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E079EA225B4DF1500B79510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7198B725B63C4D00E3474A /* StudentProfileVC.swift in Sources */,
+				9E85DD9D25BAD95700F72F0F /* SearchCell.swift in Sources */,
+				9EB6DCCD25B601F400EDBF1D /* StudentBookCell.swift in Sources */,
+				9EA215E125B8B06B003CF1B9 /* SorumluKitaplarCell.swift in Sources */,
+				9EC15EFB25B85D8A00D0E0AC /* AddBook.swift in Sources */,
+				9EB6DCC525B5AA9E00EDBF1D /* AlertView.swift in Sources */,
+				9E079EAE25B4DF1500B79510 /* ViewController.swift in Sources */,
+				9E85DD9925BAD60100F72F0F /* SearchVC.swift in Sources */,
+				9EB6DCD625B62E1C00EDBF1D /* Extensions.swift in Sources */,
+				9E079EAA25B4DF1500B79510 /* AppDelegate.swift in Sources */,
+				9E50854725B6FF7A0030B6F3 /* SorumluRezervasyon.swift in Sources */,
+				9EB6DCDA25B632B600EDBF1D /* StudentUserTableViewCell.swift in Sources */,
+				9E50855725B71CE20030B6F3 /* SorumluUserTableViewCell.swift in Sources */,
+				9E50854225B6CD380030B6F3 /* RezervasyonPage.swift in Sources */,
+				9E079EAC25B4DF1500B79510 /* SceneDelegate.swift in Sources */,
+				9E50855B25B766890030B6F3 /* AddUserVC.swift in Sources */,
+				9EB6DCD225B6053000EDBF1D /* BooksCollectionViewCell.swift in Sources */,
+				9E85DD9625BA026100F72F0F /* Model.swift in Sources */,
+				9E50855325B71B280030B6F3 /* KullanicilarVC.swift in Sources */,
+				9E50854B25B70FEC0030B6F3 /* SorumluRezervasyonVC.swift in Sources */,
+				9EB6DCC225B5A99E00EDBF1D /* StudentHomeVC.swift in Sources */,
+				9EC15EF825B85D6E00D0E0AC /* SorumluKitaplar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E079EAF25B4DF1500B79510 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E079EB025B4DF1500B79510 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E079EB425B4DF1600B79510 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E079EB525B4DF1600B79510 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E079EB825B4DF1600B79510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E079EB925B4DF1600B79510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E079EBB25B4DF1600B79510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB6087DF7824C884B912B63 /* Pods-okulLib.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMDKZR2LAD;
+				INFOPLIST_FILE = okulLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.labs.okulLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E079EBC25B4DF1600B79510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF213CCD4121BD0FFBB346C /* Pods-okulLib.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMDKZR2LAD;
+				INFOPLIST_FILE = okulLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.labs.okulLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E079EA125B4DF1500B79510 /* Build configuration list for PBXProject "okulLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E079EB825B4DF1600B79510 /* Debug */,
+				9E079EB925B4DF1600B79510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E079EBA25B4DF1600B79510 /* Build configuration list for PBXNativeTarget "okulLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E079EBB25B4DF1600B79510 /* Debug */,
+				9E079EBC25B4DF1600B79510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E079E9E25B4DF1500B79510 /* Project object */;
+}
